@@ -1,0 +1,335 @@
+*{
+    padding: 0 10px;
+    margin: 0;
+    background: #2CBAE7;
+    color: #fff;
+    font-family: 'Gotham Rounded SSm A', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid white;
+    z-index: 10;
+    /* padding: 0.5rem 2%; */
+}
+
+.menu-items{
+    max-width: 1140px;
+}
+
+.left-items{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+    padding:  10px 2%;
+    font-family: 'Gotham Rounded SSm A', sans-serif;
+    border-right: 1px dotted white;                                                
+    
+}
+
+.menu-items a:hover{
+    background: #fff;
+    color: #2CBAE7;
+}
+
+.right-items{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    padding: 10px 20px;
+    font-family: 'Gotham Rounded SSm B', sans-serif;
+
+}
+
+.logo{
+    padding-top: 100px;
+    height: 98px;
+    padding-bottom: 40px;
+}
+
+.main>button{
+    /* padding: auto;
+    position: relative;
+    right: 30px;
+    border: 1px solid #2CBAE7;
+    border-radius: 5px;
+    float: right;
+    background: #fff;
+    color: #2CBAE7;
+    padding: 0.5rem 1.5rem; */
+    width: 25%;
+    float: right;
+    top: 15px; right: 30px;
+    position: relative;
+    font-size: 15px;
+    background: #fff;
+    color: #2CBAE7;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.social-icons{
+    float: right;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.heading-1>h1{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.1rem;
+    word-spacing: .5rem;
+    font-size: 40px;
+}
+
+.arrow{
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.heading-1>hr{
+    margin: 8rem 0;
+    border-top: 0.1px dotted white;
+}
+hr{
+    border: 0;
+    border-bottom: 1px dotted white;
+}
+.img-2{
+    right: 0;
+    float: right;
+    width: 512px;
+}
+
+.left-quote{
+    font-size: 60px;
+}
+
+.main>h1{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.1rem;
+    word-spacing: .5rem;
+    font-size: 35px;
+}
+
+.project{
+    display: inline-block;
+    float: left;
+    width: 515px;
+}
+
+.project-text>h1{
+    display: inline-block;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    /* justify-content:center; */
+}
+
+.project-text>p{
+    display: inline-block;
+    padding-left: 4rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+.arrow2{
+    padding-top: 20px;
+    font-size: 50px;
+    padding-left: 4rem; 
+}
+
+.timesheets{
+    /* display: inline-block;    */
+    float: right;
+    width: 550px;
+}
+
+.timesheet-text>h1{
+    display: inline-block;
+    top: 100px; left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;    
+}
+
+.timesheet-text>p{
+    /* float: left; */
+    display: inline-block;
+    top: 100px; left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+.arrow3{
+    margin-top: 10rem;
+    font-size: 50px;
+    padding-left: 4rem; 
+}
+
+.metrics{
+    display: inline-block;
+    float: right;
+    width: 520px;
+}
+
+.metrics-text>h1{
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;    
+}
+
+.metrics-text>p{
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+.expenses{
+    /* display: inline-block; */
+    float: left;
+    width: 520px;
+}
+
+.expenses-text>h1{
+    display: inline-block;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.expenses-text>p{
+    display: inline-block;
+    padding-left: 4rem;
+    word-spacing: 0.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.todo{
+    float: right;
+    width: 560px;
+}
+
+.todo-text>h1{
+    display: inline-block;
+    top: 100px; left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;    
+}
+
+.todo-text>p{
+    display: inline-block;
+    top: 100px; left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+.clients{
+    float: left;
+    width: 550px;
+}
+
+.clients-text>h1{
+    display: inline-block;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.clients-text>p{
+    display: inline-block;
+    padding-left: 4rem;
+    word-spacing: 0.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.quotes{
+    float: right;
+    width: 560px;
+}
+
+.quotes-text>h1{
+    display: inline-block;
+    top: 100px; left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;    
+}
+
+.quotes-text>p{
+    display: inline-block;
+    top: 100px; left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
+
+.quotes-btn{
+    display: inline-block;
+    top: 150px; left: 40px;
+    position: relative;
+    font-size: 15px;
+    background: #fff;
+    color: #2CBAE7;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.footer-text{
+    display: inline-block;
+    top: 30px; left: 10px;
+    position: relative;
+    word-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
+    margin-bottom: 1rem; 
+    line-height: 2.4rem;
+}
+
+.footer-text-2{
+    display: inline-block;
+    left: 40px;
+    position: relative;
+    word-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
+    line-height: 1.5rem;
+}
+
+.footer-btn{
+    display: inline-block;
+    top: 20px; left: 10px;
+    margin-right: 4rem;
+    position: relative;
+    font-size: 15px;
+    background: #fff;
+    color: #2CBAE7;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+.footer-logo{
+    padding-top: 0.85rem;
+    height: 98px;
+    margin-bottom: 25rem;
+}
