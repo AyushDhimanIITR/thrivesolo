@@ -29,6 +29,11 @@
     
 }
 
+.active{
+    background: #fff;
+    color: #2CBAE7;
+}
+
 .menu-items a:hover{
     background: #fff;
     color: #2CBAE7;
@@ -332,4 +337,98 @@ hr{
     padding-top: 0.85rem;
     height: 98px;
     margin-bottom: 25rem;
+}
+@media only screen and (max-width: 480px){ 
+    .left-items{
+        padding: 9px 0 9px 9%;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px dotted white;
+        border-right: 0;
+    }
+}
+@media only screen and (max-width: 480px){ 
+    .right-items{
+        padding: 9px 0 9px 9%;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px dotted white;
+        border-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .heading-1 .logo{
+        width: 100%;
+        margin-top: 8rem;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .btn{
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+    .img-2{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .project{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .timesheets{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .expenses{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .todo{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .clients{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .quotes{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    h1{
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-btn{
+        margin-bottom: 2rem;;
+    }
+    
 }
